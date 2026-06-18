@@ -1,0 +1,27 @@
+COMANDOS BÁSICOS DE LINUX (Máquinas Virtuales)
+===============================================
+
+ACTUALIZACIÓN Y PAQUETES:
+sudo apt update              - Actualiza lista de paquetes disponibles
+sudo apt upgrade -y          - Actualiza todos los paquetes instalados
+sudo apt install gimp -y     - Instala GIMP (editor de imágenes)
+sudo apt install git         - Instala Git (control de versiones)
+sudo apt install code        - Instala Visual Studio Code (editor de código)
+
+GESTIÓN DE ARCHIVOS:
+ls                           - Lista archivos y directorios
+pwd                          - Muestra el directorio actual
+cd /ruta                     - Cambia de directorio
+mkdir nombre                 - Crea un directorio
+touch archivo.txt            - Crea un archivo vacío
+rm archivo                   - Elimina un archivo
+
+GIT (control de versiones):
+git init                     - Inicia un repositorio local
+git add .                    - Agrega todos los cambios al staging
+git commit -m "mensaje"      - Guarda una versión
+git push origin main         - Sube cambios a GitHub
+git pull origin main         - Trae cambios de GitHub
+git branch nombre            - Crea una rama
+git checkout nombre          - Cambia a una rama
+git merge nombre             - Fusiona una rama a la actual
