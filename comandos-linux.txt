@@ -7,7 +7,7 @@ sudo apt upgrade -y          - Actualiza todos los paquetes instalados
 sudo apt install gimp -y     - Instala GIMP (editor de imágenes)
 sudo apt install git         - Instala Git (control de versiones)
 sudo apt install code        - Instala Visual Studio Code (editor de código)
-
+sudo apt install htop -y
 GESTIÓN DE ARCHIVOS:
 ls                           - Lista archivos y directorios
 pwd                          - Muestra el directorio actual
