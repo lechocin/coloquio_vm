@@ -7,7 +7,7 @@ sudo apt upgrade -y          - Actualiza todos los paquetes instalados
 sudo apt install gimp -y     - Instala GIMP (editor de imágenes)
 sudo apt install git         - Instala Git (control de versiones)
 sudo apt install code        - Instala Visual Studio Code (editor de código)
-sudo apt install htop -y
+sudo apt install htop -y     - monitor de procesos tiempo real
 GESTIÓN DE ARCHIVOS:
 ls                           - Lista archivos y directorios
 pwd                          - Muestra el directorio actual
@@ -25,3 +25,4 @@ git pull origin main         - Trae cambios de GitHub
 git branch nombre            - Crea una rama
 git checkout nombre          - Cambia a una rama
 git merge nombre             - Fusiona una rama a la actual
+
